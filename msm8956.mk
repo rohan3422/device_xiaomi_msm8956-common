@@ -308,6 +308,7 @@ PRODUCT_PACKAGES += \
 # Wifi
 PRODUCT_PACKAGES += \
     libwpa_client \
+    wificond \
     hostapd \
     wificond \
     wifilogd \
