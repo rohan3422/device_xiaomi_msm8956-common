@@ -23,6 +23,9 @@ vendor.voice.conc.fallbackpath=deep-buffer
 vendor.voice.playback.conc.disabled=true
 vendor.voice.record.conc.disabled=false
 
+#low audio flinger standby delay to reduce power consumption
+ro.audio.flinger_standbytime_ms=300
+
 # Bluetooth
 bluetooth.hfp.client=1
 qcom.bluetooth.soc=smd
