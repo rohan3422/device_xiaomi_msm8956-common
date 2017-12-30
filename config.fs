@@ -1,3 +1,6 @@
+[AID_QTI_DIAG]
+value:2901
+
 [system/bin/pm-service]
 mode: 0755
 user: AID_SYSTEM
