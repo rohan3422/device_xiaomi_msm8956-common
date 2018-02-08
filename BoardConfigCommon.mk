@@ -163,16 +163,17 @@ TARGET_RECOVERY_DEVICE_MODULES := libinit_msm
 DEVICE_MANIFEST_FILE := $(VENDOR_PATH)/manifest.xml
 DEVICE_MATRIX_FILE   := $(VENDOR_PATH)/compatibility_matrix.xml
 
-# Lineage Hardware
-BOARD_HARDWARE_CLASS += \
-    $(VENDOR_PATH)/lineagehw
-
 # Keymaster
 TARGET_PROVIDES_KEYMASTER := true
 
 # Lights
 BOARD_LIGHTS_VARIANT := aw2013
 TARGET_PROVIDES_LIBLIGHT := true
+
+# Lineage hardware
+BOARD_HARDWARE_CLASS += \
+    hardware/lineage/lineagehw \
+    $(VENDOR_PATH)/lineagehw
 
 # Media
 TARGET_USES_MEDIA_EXTENSIONS := true
