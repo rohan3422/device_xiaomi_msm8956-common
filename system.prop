@@ -132,3 +132,6 @@ wifi.interface=wlan0
 # WiFi Display
 persist.debug.wfd.enable=1
 persist.sys.wfd.virtual=0
+
+# Delayed restart
+ro.am.reschedule_service=true
